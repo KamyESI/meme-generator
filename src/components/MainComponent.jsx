@@ -73,6 +73,9 @@ function MainComponent() {
         <span className="top-text">{meme.topText}</span>
         <span className="bottom-text">{meme.bottomText}</span>
       </div>
+      <p className="instruction">
+        Change text in the tow inputs to change text on the image
+      </p>
     </main>
   );
 }
